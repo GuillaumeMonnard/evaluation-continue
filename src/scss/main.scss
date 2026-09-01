@@ -1,4 +1,10 @@
 @import "font";
 @import "base";
 @import "layout";
-@import "modules/example";
+@import "modules/_example";
+@import "modules/_CTA.scss";
+
+#semaine-1 {
+  width: 800px;
+  height: 500px;
+}
