@@ -8,6 +8,16 @@
   padding: 1rem;
 }
 
+#secondary-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  padding: 1rem;
+}
+
 .default {
   display: flex;
   padding: 1rem 1.25rem;
