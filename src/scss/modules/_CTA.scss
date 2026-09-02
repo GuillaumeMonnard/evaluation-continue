@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .default {
@@ -20,4 +22,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.small {
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 12px;
 }
