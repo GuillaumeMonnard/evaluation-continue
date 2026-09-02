@@ -1,3 +1,9 @@
+#primary {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .default {
   display: flex;
   padding: 16px 20px;
