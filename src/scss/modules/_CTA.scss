@@ -36,25 +36,28 @@
   line-height: normal;
 
   transition: background-color 0.5s ease;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #343434;
+  }
+
+  &:disabled {
+    cursor: default;
+    background-color: #bbb;
+  }
 }
 
 .secondary {
   color: #000;
   background-color: #fff;
+
+  &.hover {
+  }
 }
 
 .small {
   font-size: 0.875rem;
   padding: 0.5rem 0.75rem;
   border-radius: 0.75rem;
-}
-
-.default:hover {
-  cursor: pointer;
-  background-color: #343434;
-}
-
-.default:disabled {
-  cursor: default;
-  background-color: #bbb;
 }
