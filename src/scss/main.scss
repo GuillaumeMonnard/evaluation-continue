@@ -2,12 +2,20 @@
 @import "base";
 @import "layout";
 @import "modules/_CTA.scss";
+@import "modules/card.scss";
 
-#semaine-1 {
+#semaine-1,
+#semaine-2 {
   width: 800px;
   height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
+}
+
+#semaine-2 {
+  width: 436px;
+  height: 632px;
+  background-color: red;
 }
