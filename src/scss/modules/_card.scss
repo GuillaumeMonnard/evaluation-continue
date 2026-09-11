@@ -37,7 +37,7 @@ img {
   font-weight: 400;
 }
 
-.button-container {
+.button-group {
   display: flex;
   align-items: flex-start;
   gap: 0.25rem;
@@ -58,20 +58,20 @@ img {
   gap: 1.25rem;
 }
 
-.information-container {
+.information-group {
   display: flex;
   align-items: center;
   gap: 1.5rem;
   align-self: stretch;
 }
 
-.price-container {
+.price-group {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-.airport-container {
+.airport-group {
   display: flex;
   width: 3.375rem;
   align-items: center;
