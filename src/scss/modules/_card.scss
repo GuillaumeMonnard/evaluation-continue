@@ -39,12 +39,41 @@ img {
 
 .button-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  gap: 0.25rem;
+  align-self: stretch;
 }
 
 .title-group {
   display: flex;
   flex-direction: column;
-  background-color: yellow;
+}
+
+.card-text {
+  display: flex;
+  width: 17.75rem;
+  padding: 0.25rem 0.5rem 0.75rem 0.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.information-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  align-self: stretch;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.airport-container {
+  display: flex;
+  width: 3.375rem;
+  align-items: center;
+  gap: 0.5rem;
 }
