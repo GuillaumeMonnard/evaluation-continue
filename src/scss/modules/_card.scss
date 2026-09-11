@@ -14,29 +14,6 @@ img {
   height: 17.75rem;
   aspect-ratio: 1/1;
 }
-
-.card-title,
-.card-subtitle,
-.card-information {
-  align-self: stretch;
-  color: var(--Primary-900, #000);
-  font-family: Montserrat;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-.card-subtitle,
-.card-information {
-  font-size: 0.875rem;
-}
-
-.card-subtitle {
-  color: var(--Primary-600, #6c6f72);
-  font-weight: 400;
-}
-
 .button-group {
   display: flex;
   align-items: flex-start;
@@ -76,6 +53,28 @@ img {
   width: 3.375rem;
   align-items: center;
   gap: 0.5rem;
+}
+
+.card-title,
+.card-subtitle,
+.card-information {
+  align-self: stretch;
+  color: var(--Primary-900, #000);
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card-subtitle,
+.card-information {
+  font-size: 0.875rem;
+}
+
+.card-subtitle {
+  color: var(--Primary-600, #6c6f72);
+  font-weight: 400;
 }
 
 .favorite-button {
