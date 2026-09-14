@@ -82,18 +82,20 @@
   height: 2rem;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  background-color: var(--Primary-0, #fff);
 
   border-radius: 4rem;
   border: 1px solid var(--Primary-500, #b4bbc0);
   color: var(--Primary-600, #6c6f72);
 
-  transition: all ease-in-out 500ms;
+  transition:
+    background-color 200ms ease-in-out,
+    border-color 200ms ease-in-out;
 
   &:hover {
-    background-color: red;
-    color: #fff;
-    border: solid #fff;
+    background-color: var(--Favorite-500, red);
+    color: var(--Primary-0, #fff);
+    border: solid var(--Primary-0, #fff);
   }
 }
 
