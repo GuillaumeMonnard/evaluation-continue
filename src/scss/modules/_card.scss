@@ -42,17 +42,15 @@
   align-self: stretch;
 }
 
-.price-group {
+.price-group,
+.airport-group {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
 .airport-group {
-  display: flex;
   width: 3.375rem;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 .card-title,
