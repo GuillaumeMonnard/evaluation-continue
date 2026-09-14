@@ -89,8 +89,8 @@
   color: var(--Primary-600, #6c6f72);
 
   transition:
-    background-color 200ms ease-in-out,
-    border-color 200ms ease-in-out;
+    background-color 500ms ease-in-out,
+    border-color 500ms ease-in-out;
 
   &:hover {
     background-color: var(--Favorite-500, red);
