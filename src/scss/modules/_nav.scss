@@ -7,7 +7,7 @@ ul {
   list-style-type: none;
 }
 
-a {
+.nav-link {
   display: flex;
   padding: 1rem 2rem;
   justify-content: center;
@@ -28,9 +28,9 @@ a {
   &:hover {
     background: rgba(255, 255, 255, 0.1);
   }
+}
 
-  &:active {
-    background: var(--Primary-0, #fff);
-    color: var(--Primary-900, #000);
-  }
+.active {
+  background: var(--Primary-0, #fff);
+  color: var(--Primary-900, #000);
 }
