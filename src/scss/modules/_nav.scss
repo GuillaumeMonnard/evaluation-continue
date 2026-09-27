@@ -28,16 +28,16 @@ a {
   &:hover {
     background: rgba(255, 255, 255, 0.1);
   }
-}
 
-.active {
-  display: flex;
-  padding: 1rem 2rem;
-  justify-content: center;
-  align-items: center;
-  gap: 0.625rem;
-  border-radius: 2rem;
-  background: var(--Primary-0, #fff);
+  &:active {
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 2rem;
+    background: var(--Primary-0, #fff);
 
-  color: var(--Primary-900, #000);
+    color: var(--Primary-900, #000);
+  }
 }
