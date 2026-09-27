@@ -22,7 +22,7 @@ ul {
   border-radius: 2rem;
   text-decoration: none;
   color: var(--white);
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
@@ -32,9 +32,13 @@ ul {
     border-radius: 2rem;
     background: rgba(255, 255, 255, 0.1);
   }
-}
 
-.active {
-  background: var(--white);
-  color: var(--active-text);
+  &.active {
+    background: var(--white);
+    color: var(--active-text);
+
+    &:hover {
+      background: var(--white);
+    }
+  }
 }
