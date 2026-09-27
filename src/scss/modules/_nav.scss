@@ -1,9 +1,15 @@
+:root {
+  --Primary-0: #fff;
+  --Primary-900-50: rgba(0, 0, 0, 0.5);
+  --Primary-900-50: rgba(0, 0, 0, 0.5);
+}
+
 ul {
   display: inline-flex;
   padding: 0.25rem;
   align-items: center;
   border-radius: 3rem;
-  background: var(--Primary-900-50, rgba(0, 0, 0, 0.5));
+  background: var(--Primary-900-50);
   list-style-type: none;
 }
 
@@ -16,7 +22,7 @@ ul {
   border-radius: 2rem;
   text-decoration: none;
 
-  color: var(--Primary-0, #fff);
+  color: var(--Primary-0);
 
   /* body-1/regular */
   font-family: Montserrat;
@@ -26,11 +32,11 @@ ul {
   line-height: normal;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--Primary-900-50);
   }
 }
 
 .active {
-  background: var(--Primary-0, #fff);
-  color: var(--Primary-900, #000);
+  background: var(--Primary-0);
+  color: var(--Primary-900);
 }
