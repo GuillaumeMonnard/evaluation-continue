@@ -1,7 +1,7 @@
 :root {
-  --Primary-0: #fff;
-  --Primary-900-50: rgba(0, 0, 0, 0.5);
-  --Primary-900: #000;
+  --white: #fff;
+  --nav-bg: rgba(0, 0, 0, 0.5);
+  --active-text: #000;
 }
 
 ul {
@@ -9,7 +9,7 @@ ul {
   padding: 0.25rem;
   align-items: center;
   border-radius: 3rem;
-  background: var(--Primary-900-50);
+  background: var(--nav-bg);
   list-style-type: none;
 }
 
@@ -21,7 +21,7 @@ ul {
   gap: 0.625rem;
   border-radius: 2rem;
   text-decoration: none;
-  color: var(--Primary-0);
+  color: var(--white);
   font-family: Montserrat;
   font-size: 1.25rem;
   font-style: normal;
@@ -29,11 +29,12 @@ ul {
   line-height: normal;
 
   &:hover {
-    background: var(--Primary-900-50);
+    border-radius: 2rem;
+    background: rgba(255, 255, 255, 0.1);
   }
 }
 
 .active {
-  background: var(--Primary-0);
-  color: var(--Primary-900);
+  background: var(--white);
+  color: var(--active-text);
 }
