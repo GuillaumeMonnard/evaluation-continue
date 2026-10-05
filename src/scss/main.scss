@@ -6,6 +6,13 @@
 @import "modules/nav.scss";
 @import "modules/hero.scss";
 
+:root {
+  --white: #fff;
+  --nav-bg: rgba(0, 0, 0, 0.5);
+  --active-text: #000;
+  --hero-border: #6c6f72;
+}
+
 #semaine-1,
 #semaine-2 {
   width: 800px;
