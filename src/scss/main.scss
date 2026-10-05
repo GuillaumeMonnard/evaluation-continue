@@ -1,10 +1,11 @@
 @import "font";
 @import "base";
 @import "layout";
-@import "modules/_CTA";
-@import "modules/card";
-@import "modules/nav";
-@import "modules/hero";
+@import "modules/_CTA.scss";
+@import "modules/card.scss";
+@import "modules/nav.scss";
+@import "modules/hero.scss";
+
 #semaine-1,
 #semaine-2 {
   width: 800px;
