@@ -40,3 +40,12 @@
   gap: 1.5rem;
   align-self: stretch;
 }
+
+.hero h1 {
+  color: var(--Primary-0, #fff);
+  font-family: Lobster;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
