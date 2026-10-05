@@ -49,3 +49,10 @@
   font-weight: 400;
   line-height: normal;
 }
+
+.filter {
+  height: 12.75rem;
+  align-self: stretch;
+  border-radius: 2rem;
+  background: var(--Primary-900-50, rgba(0, 0, 0, 0.5));
+}
