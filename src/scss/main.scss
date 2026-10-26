@@ -15,8 +15,7 @@
   --hero-border: #6c6f72;
 }
 
-#semaine-1,
-#semaine-2 {
+#semaine-1 {
   width: 800px;
   height: 500px;
   display: flex;
@@ -25,7 +24,9 @@
   gap: 2rem;
 }
 
-#semaine-2 {
-  width: 436px;
-  height: 632px;
+#semaine-6 {
+  display: flex;
+  width: 90rem;
+  flex-direction: column;
+  align-items: flex-start;
 }
