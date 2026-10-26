@@ -11,15 +11,15 @@
 
 #grid-info {
   display: flex;
-  padding: 1.25rem;
   flex-direction: column;
-  align-self: start;
   align-items: flex-start;
   gap: 2rem;
-  grid-row: 1 / span 1;
-  justify-self: stretch;
+  padding: 1.25rem;
+  grid-row: 1;
+  align-self: start;
   position: sticky;
   top: 2rem;
+
   border-radius: 1.25rem;
   background: var(--search-info-bg);
 }
@@ -30,24 +30,22 @@
   row-gap: 2rem;
   column-gap: 32px;
   grid-template-rows: repeat(4, fit-content(100%));
-  grid-template-columns: repeat(3, fit-content(100%));
-  grid-row: 1 / span 1;
-  grid-column: 2 / span 1;
-  grid-auto-flow: row;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row: 1;
+  grid-column: 2;
 }
 
-.flight-departure-destination .dates {
+.flight-departure-destination,
+.dates {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.25rem;
   align-self: stretch;
+  gap: 0.25rem;
 }
 
 h2 {
   color: var(--white);
-
-  /* heading-2 */
   font-family: Montserrat;
   font-size: 1.75rem;
   font-style: normal;
@@ -57,8 +55,6 @@ h2 {
 
 p {
   color: var(--Primary-0, #fff);
-
-  /* body-1/regular */
   font-family: Montserrat;
   font-size: 1.25rem;
   font-style: normal;
@@ -68,4 +64,15 @@ p {
 
 .strong {
   font-weight: 600;
+}
+
+.see-more-CTA {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  grid-column: 1 / -1;
+}
+
+.see-more-CTA .default {
+  flex: 0 0 auto;
 }
