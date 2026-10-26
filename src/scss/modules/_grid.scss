@@ -5,6 +5,8 @@
   align-self: stretch;
   grid-template-rows: fit-content(100%) 0px;
   grid-template-columns: minmax(0, 1fr) fit-content(100%);
+
+  color: var(--white);
 }
 
 #grid-info {
@@ -31,4 +33,26 @@
   grid-row: 1 / span 1;
   grid-column: 2 / span 1;
   grid-auto-flow: row;
+}
+
+h2 {
+  color: var(--white);
+
+  /* heading-2 */
+  font-family: Montserrat;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+p {
+  color: var(--Primary-0, #fff);
+
+  /* body-1/regular */
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
